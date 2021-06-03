@@ -8,13 +8,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
+<BODY>
   <h1>Marshmallow Hugs</h1>
 
   <h2>a sock company</h2>
 <?php
-  include_once "nav.php";
+   include_once "nav.php";
 ?>
 <div class="triangle">
   <h3>Marshmallow Hugs is a Chicago-based sock company. It is dedicated to the improvement of socks for complete comfort. Combining plush fibers and new gel-infused techology, Marshmallow Hugs is the most customizable and most <em>comfortable</em> socks on the market. Whether you have AFOs, the first day of school, work, or an upcoming soccer game-- Marshmallow Hugs is the best choice.</h3>

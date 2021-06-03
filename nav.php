@@ -18,10 +18,10 @@
       <a href='premade.php'>Pre-Made Socks</a>
     </div>
     <div>
-      <a href='trueage.php'>Cart</a>
+      <a href='yourorders.php'>Cart</a>
     </div>
     <div>
-      <a href='trueage.php'>Account</a>
+      <a href='signpage.php'>Sign Up</a>
     </div>
   </div>";
 ?>

@@ -46,15 +46,15 @@ img{
   width:300px;
   margin-left:25px;
 }
-
-#canvas1{
+/*
+#canvas_1{
   height:200px;
   width:200px;
   background-size:cover;
-  background-image:"Screen Shot 2021-04-25 at 1.19.23 PM";
+  background-image: url("BH6 Socks-04 copy.png");
 
 }
-
+*/
 div{
   margin: left 15px;
   margin-right:15px;
@@ -95,6 +95,8 @@ h4{
 img{
   max-width:500px;
   margin-top:0px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
 }
 
@@ -110,4 +112,43 @@ img{
 .triangle{
   margin-left:auto;
   margin-right:auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.product{
+  padding:50px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 25%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
 }

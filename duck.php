@@ -8,18 +8,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Pre-Made Socks</h1>
 
-  <h2>quick buy</h2>
+</head>
+<BODY>
+  <h1>Marshmallow Hugs</h1>
+
+  <h2>the <em>big hero 6</em> collection</h2>
 <?php
    include_once "nav.php";
 ?>
-<div class="hover">
-    <!-- insert pictures and pages and prices-->
-    <a href="duck.php" input type="image" name="duck" img src="DuckCollection-18.png" class="center"><br><img src="BH6Socks-06.png" class=
-    "center">
+<div class="product">
+  <img src="BH6 Socks-02 copy.png" height:500px;><img src="BH6 Socks-03 copy.png" height:500px;><img src="BH6 Socks-04 copy.png" height:500px;><img src="BH6 Socks-05 copy.png" height:500px;>
+
 </div>
 </body>
 </html>

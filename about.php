@@ -14,10 +14,11 @@
 
   <h2>marshmallow hugs</h2>
 <?php
-  include_once "nav.php";
+   include_once "nav.php";
 ?>
 <div class="hover">
-    <h4>Marshmallow Hugs is a Chicago-based sock company dedicated to making comfortable, personal and pretty socks. Started by a high school sophmore, <em>Marshmallow Hugs</em> strives to....</h4>
+    <img src="https://media.istockphoto.com/photos/stickers-on-white-picture-id1131809575?k=6&m=1131809575&s=612x612&w=0&h=2lrJi8HUaL-0K2bTT06PrvJ25Y1QWw27UBVk1NY7YbM=" class="center">
+    <h4><em>Marshmallow Hugs</em> is a Chicago-based sock company dedicated to making comfortable, personal and fun socks. We guarantee that we have a sock for everyone, even you! <br><br> All products are made in the USA. <br><br> For more information, call (XXX) XXX-XXXX or email ********@*****.com</h4>
 </div>
 </body>
 </html>
