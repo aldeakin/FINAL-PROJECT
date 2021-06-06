@@ -11,8 +11,8 @@
 <body>
 <div class=image>
 </div>
-  <h1>Sign In!</h1>
-  <h2>log into your account</h2>
+  <h1>Sign Up!</h1>
+  <h2>make your account</h2>
   <?php
   include_once "nav.php";
   ?>
@@ -26,8 +26,8 @@
       <textarea name="password" id="password" cols="30" rows="2.5" required></textarea> 
     </div>
     <div>
-      <button type="submit">Sign In</button>
-      <h5>(or <a href="signup.php">sign up</a>)</h3>
+      <button type="submit">Sign Up</button>
+      <h5>(or <a href="signin.php">sign in</a>)</h3>
     </div>
   </form>
   

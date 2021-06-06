@@ -6,22 +6,35 @@
       <a href='index.php'>Home</a>
     </div>
     <div>
-      <a href='build.php'>Build Your Sock!</a>
-    </div>
-    <div>
       <a href='about.php'>About Marshmallow Hugs</a>
     </div>
     <div>
       <a href='FAQ.php'>FAQ</a>
     </div>
     <div>
-      <a href='premade.php'>Pre-Made Socks</a>
+      <a href='premade.php'>Sock Designs</a>
     </div>
     <div>
-      <a href='yourorders.php'>Cart</a>
+    <a href='order.php'>Place an Order</a>
+  </div>
+  ";
+  if (isset($_SESSION['username'])){
+    echo "
+    <div>
+      <a href='checkout.php'>ETA</a>
     </div>
     <div>
-      <a href='signpage.php'>Sign Up</a>
+      <a href='signout.php'>Sign Out</a>
+    </div>"
+    ;
+  }else{
+    echo "
+    <div>
+      <a href='signup.php'>Sign Up</a>
     </div>
-  </div>";
+    <div>
+      <a href='signin.php'>Log In</a>
+    </div>";
+  }
+  echo '</div>';
 ?>

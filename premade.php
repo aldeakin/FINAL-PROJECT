@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!isset($_SESSION['username'])){
+  header("location:index.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +23,6 @@
    include_once "nav.php";
 ?>
 <div class="hover">
-    <!-- insert pictures and pages and prices-->
     <a href="duck.php" input type="image" name="duck" img src="DuckCollection-18.png" class="center"><br><img src="BH6Socks-06.png" class=
     "center">
 </div>

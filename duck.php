@@ -18,7 +18,7 @@
    include_once "nav.php";
 ?>
 <div class="product">
-  <img src="BH6 Socks-02 copy.png" height:500px;><img src="BH6 Socks-03 copy.png" height:500px;><img src="BH6 Socks-04 copy.png" height:500px;><img src="BH6 Socks-05 copy.png" height:500px;>
+  <img src="BH6 Socks-02 copy.png" height:500px><img src="BH6 Socks-03 copy.png" height:500px;><img src="BH6 Socks-04 copy.png" height:500px;><img src="BH6 Socks-05 copy.png" height:500px;>
 
 </div>
 </body>
